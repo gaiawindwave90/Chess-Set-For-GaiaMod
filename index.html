@@ -73,34 +73,17 @@
             <label for="rotation-switch" class="btn white switch">Auto Rotate</label>
             <input type="checkbox" id="player-side-switch" onchange="togglePlayerSide(this)" />
             <label for="player-side-switch" class="btn white switch">Play as Black</label>
-            <input type="checkbox" id="bot-switch" onchange="toggleBot(this)" />
+            <input type="checkbox" id="bot-switch" onchange="toggleBot(this)" checked />
             <label for="bot-switch" class="btn white switch">Play vs Bot</label>
             <button type="button" class="btn menu-nav" data-menu="main">Back</button>
           </section>
           <section id="main" class="pane">
-            <h1>3D Bauhaus Chess Set</h1>
-            <p style="margin-bottom: 0.35em; font-size: 15px;">Based on Joseph Hartwig’s 1923 Bauhaus Set</p>
-            <p style="margin-bottom: 0.35em; font-size: 15px;">Original design & code by <a href="http://twitter.com/juliangarnier" target="_blank">@JulianGarnier</a></p>
-            <p style="margin-bottom: 0.35em; font-size: 15px;">Improved by <a href="https://github.com/LunarEclipseCode" target="_blank">@LunarEclipseCode</a></p>
+            <h1>GaiaMod Chess</h1>
             <button type="button" class="btn white menu-nav" data-menu="settings">Settings</button>
             <div class="continue-button-group">
               <button type="button" id="continue" class="btn">Play</button>
               <button type="button" id="restart" class="btn white" style="display: none">Restart</button>
             </div>
-            <button type="button" class="btn white menu-nav" data-menu="about">About</button>
-          </section>
-          <section id="about" class="pane">
-            <h1>About</h1>
-            <p>Originally released under MIT license</p>
-            <p>This version is GPL-licensed (due to stockfish)</p>
-            <p>Fork me on <a href="https://github.com/LunarEclipseCode/3D-Hartwig-chess-set" target="_blank">Github</a></p>
-            <h2>Libraries</h2>
-            <p>
-              Lighting effect : <a href="https://github.com/mrdoob/three.js" target="_blank">three.js</a><br />
-              Moves and validation : <a href="https://github.com/jhlywa/chess.js" target="_blank">chess.js</a><br />
-              Chess Bot : <a href="https://github.com/nmrugg/stockfish.js" target="_blank">stockfish.js</a>
-            </p>
-            <button type="button" class="btn menu-nav" data-menu="main">Back</button>
           </section>
         </section>
       </div>
