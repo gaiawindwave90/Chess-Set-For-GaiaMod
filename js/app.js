@@ -887,6 +887,14 @@ function init() {
   optionScreen();
   initControls();
   UI();
+
+  
+  var botSwitch = document.getElementById("bot-switch");
+  if (botSwitch && botSwitch.checked) {
+    botEnabled = true;
+    initStockfish();
+  }
+  
   setTimeout(() => (document.getElementById("logo").innerHTML = ""), 2000);
 }
 
